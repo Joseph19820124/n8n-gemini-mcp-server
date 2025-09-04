@@ -1,0 +1,47 @@
+{
+  "name": "n8n-gemini-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for integrating Claude Desktop with N8N and Google Imagen API for image generation",
+  "main": "server.js",
+  "type": "module",
+  "bin": {
+    "n8n-gemini-mcp": "./server.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test.js",
+    "lint": "eslint server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "n8n",
+    "gemini",
+    "imagen",
+    "google-cloud",
+    "image-generation",
+    "ai",
+    "claude-desktop",
+    "anthropic"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Joseph19820124/n8n-gemini-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Joseph19820124/n8n-gemini-mcp-server/issues"
+  },
+  "homepage": "https://github.com/Joseph19820124/n8n-gemini-mcp-server#readme"
+}
