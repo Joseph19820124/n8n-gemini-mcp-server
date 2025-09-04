@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "n8n-gemini-image": {
+      "command": "node",
+      "args": ["/path/to/n8n-gemini-mcp-server/server.js"],
+      "env": {
+        "N8N_WEBHOOK_URL": "https://your-n8n-instance.com/webhook/gemini-image-gen",
+        "DEBUG": "false"
+      }
+    }
+  }
+}
